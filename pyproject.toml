@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "concat-pdf"
+version = "0.1.0"
+description = ""
+authors = ["= <victorsturnichcapel@gmail.com>"]
+readme = "README.md"
+packages = [{include = "concat_pdf"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+PyPDF2 = "^3.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
